@@ -1,0 +1,46 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+Starting new CST MWS project ...
+  -> units and solver
+  -> define material: Alumina (custom mmWave fit)
+  -> define sphere
+  -> define boundaries
+  -> define eigenmode solver
+Saving as C:\Users\asus\btp\btp\power-combining\eigenmode_bare_sphere.cst ...
+Running Eigenmode solver ...
+--- last 20 messages ---
+{'text': 'Eigenmode solver results:', 'type': 'INFO'}
+{'text': '  Mode        Frequency                Total Q           Accuracy\n  1           29.37448      GHz        10.76             4.668e-09 \n  2           29.37533      GHz        10.76             4.344e-09 \n  3           29.37539      GHz        10.76             3.245e-09 \n  4           37.17843      GHz        1.986             6.122e-11 \n', 'type': 'INFO'}
+{'text': 'Number of modes in search area is smaller than number of modes to check for mesh adaptation. Mesh adaptation continues with all found modes.', 'type': 'WARNING'}
+{'text': 'Marked 436 of 8291 for refinement.', 'type': 'INFO'}
+{'text': 'Refinement successful', 'type': 'INFO'}
+{'text': 'Maximum relative delta calculation: dF = 0.001474', 'type': 'INFO'}
+{'text': 'Pass 3:', 'type': 'INFO'}
+{'text': 'The requested modes will be searched for in the interval (20 GHz, 45 GHz)', 'type': 'INFO'}
+{'text': 'Step        Residual', 'type': 'INFO'}
+{'text': '0           1.000000e+00', 'type': 'INFO'}
+{'text': '5           8.523001e-01', 'type': 'INFO'}
+{'text': '10          2.449929e-02', 'type': 'INFO'}
+{'text': '15          1.061429e-04', 'type': 'INFO'}
+{'text': '20          4.201248e-07', 'type': 'INFO'}
+{'text': 'Maximum relative delta calculation: dF = 0.000190', 'type': 'INFO'}
+{'text': 'Desired accuracy limit reached, mesh adaptation stopped.', 'type': 'INFO'}
+{'text': 'Eigenmode solver results:', 'type': 'INFO'}
+{'text': '  Mode        Frequency                Total Q           Accuracy\n  1           29.37266      GHz        10.77             2.619e-11 \n  2           29.37308      GHz        10.77             5.341e-11 \n  3           29.3731       GHz        10.77             4.781e-11 \n  4           37.20619      GHz        1.97              7.953e-11 \n', 'type': 'INFO'}
+{'text': 'Eigenmode solver successful', 'type': 'INFO'}
+{'text': '2 warnings occurred.', 'type': 'WARNING'}
+
+Modes calculated: 4
+  Mode 1: f = 29.3727 GHz, Q = 10.76779672714094
+  Mode 2: f = 29.3731 GHz, Q = 10.76764820563113
+  Mode 3: f = 29.3731 GHz, Q = 10.768804994398007
+  Mode 4: f = 37.2062 GHz, Q = 1.9701730880950832
+Done.
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

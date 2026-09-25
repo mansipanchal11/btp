@@ -1,0 +1,24 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+Traceback (most recent call last):
+  File "C:\Users\asus\btp\btp\retry_solve.py", line 17, in <module>
+Running Frequency Domain solver ...
+    m.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: The port mode calculation failed.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 5 errors and 3 warnings occurred.
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

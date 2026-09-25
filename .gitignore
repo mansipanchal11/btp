@@ -1,0 +1,12 @@
+# CST Studio auto-generates a same-named results/cache folder next to every
+# .cst project file (Model/, ModelCache/, Result/, Export/, ...). These are
+# regenerable from the .cst file itself and are large (tens to hundreds of MB)
+# - never commit them. Add new entries here as new .cst projects are created.
+sphere_DR/
+start (1)/
+power-combining/eigenmode_bare_sphere/
+power-combining/eigenmode_seated_sphere/
+power-combining/single_probe_baseline/
+
+# Claude Code runtime state (not project config)
+.claude/

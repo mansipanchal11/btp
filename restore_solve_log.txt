@@ -1,0 +1,42 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+Restoring original tutorial solver settings (2nd order, adaptive) ...
+Running Frequency Domain solver ...
+run_solver() raised: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: The port mode calculation failed.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 5 errors and 3 warnings occurred.
+Checking whether it actually completed underneath ...
+--- last 15 messages ---
+{'text': 'Excitation: port 1, mode 1', 'type': 'INFO'}
+{'text': 'Sample 19 (13.145 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1, mode 1', 'type': 'INFO'}
+{'text': 'Sample 20 (13.09 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1, mode 1', 'type': 'INFO'}
+{'text': 'Sample 21 (9.395 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1, mode 1', 'type': 'INFO'}
+{'text': 'Sample 22 (10.31 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1, mode 1', 'type': 'INFO'}
+{'text': 'All broadband sweep convergence criteria have been satisfied after calculating 22 frequency samples.', 'type': 'INFO'}
+{'text': 'Calculating remaining monitors.', 'type': 'INFO'}
+{'text': 'Running postprocessing.', 'type': 'INFO'}
+{'text': 'Postprocessing finished.', 'type': 'INFO'}
+{'text': 'Creating parametric 1D results for Run ID 1', 'type': 'INFO'}
+{'text': '2 warnings occurred.', 'type': 'WARNING'}
+You are working in interactive mode.
+Wrote C:\Users\asus\btp\btp\sphere_DR_sparams.csv, 1002 points
+Done.
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

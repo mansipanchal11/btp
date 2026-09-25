@@ -1,0 +1,25 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+Opening C:\Users\asus\btp\btp\start (1).cst ...
+  -> define parameters
+  -> solver and units
+  -> define material: Rogers RO3003 (loss free)
+  -> define material: Alumina (99.5%) (lossy)
+  -> define material: Copper (annealed)
+  -> define substrate
+Traceback (most recent call last):
+  File "C:\Users\asus\btp\btp\build_sphere_dr.py", line 393, in <module>
+    main()
+  File "C:\Users\asus\btp\btp\build_sphere_dr.py", line 354, in main
+    m.add_to_history(name, vba)
+RuntimeError: An error occurred while trying to execute add_to_history:
+(&H8000ffff) This name already exists, please choose a unique name
+(.Create)
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

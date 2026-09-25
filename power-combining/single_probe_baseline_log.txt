@@ -1,0 +1,45 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+Starting new CST MWS project ...
+  -> units and solver
+  -> define materials
+  -> define substrate
+  -> define seating hole
+  -> define sphere
+  -> define boundaries
+  -> define probe pin
+  -> define discrete port
+  -> define frequency + solver
+  -> define farfield monitors
+Saving as C:\Users\asus\btp\btp\power-combining\single_probe_baseline.cst ...
+Running Frequency Domain solver ...
+--- last 20 messages ---
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'Sample 7 (27 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'Sample 8 (28.5 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'Sample 9 (30 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'Sample 2 (33 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'Sample 10 (38.47 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'Only few automatic samples have been calculated up to now. Therefore, the frequency sweep is continued with additional automatically chosen samples.', 'type': 'INFO'}
+{'text': 'Sample 11 (34.93 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'Sample 12 (39.445 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'All broadband sweep convergence criteria have been satisfied after calculating 12 frequency samples.', 'type': 'INFO'}
+{'text': 'Running postprocessing.', 'type': 'INFO'}
+{'text': 'Postprocessing finished.', 'type': 'INFO'}
+{'text': '2 warnings occurred.', 'type': 'WARNING'}
+Done. Run export_sparams.py next to pull S11 and farfield results.
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.
