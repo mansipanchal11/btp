@@ -73,7 +73,7 @@ API introspection - found by grepping CST's own installed macro library and wiza
 templates under `Library/`, and by testing candidate property names directly against a
 live CST session).
 
-### 4. Step 2 - single-probe-fed baseline: IN PROGRESS
+### 4. Step 2 - single-probe-fed baseline: DONE (hybrid-mode caveat)
 
 `power-combining/single_probe_baseline.py` / `.cst`. Built a discrete-port-fed probe next
 to the sphere, on the seated structure from Step 1. First attempt (probe confined to the
@@ -85,19 +85,29 @@ feed-circle radius, reaching up alongside the sphere without touching it) improv
 a shallow, unresolved dip (~-1 dB near 34.7 GHz) - real frequency dependence now, but
 nowhere near a matched resonance (need <= -10 dB).
 
-**Conclusion so far:** the probe geometry genuinely needs a parameter sweep (probe height,
-feed-circle radius, probe diameter) to find a matched configuration - this was anticipated
-in the plan (`05-open-questions.md` #3) and is confirmed by simulation, not just guessed.
-**Not yet done.**
+**Resolved (2026-10-15) by a 15-point sweep with the probe beside the sphere** instead of
+under it (`power-combining/07-probe-sweep-results.md`): feed-circle radius 1.70 mm, probe
+height 1.80 mm → **S11 = −22.7 dB at 33.11 GHz**, 2.2% −10 dB bandwidth, 97% radiation
+efficiency, 7.7 dBi directivity, 7.6 dBi realized gain, broadside main lobe. Centre-point
+E/H probes show the excited mode is a **hybrid** (y-directed magnetic dipole plus
+x-directed electric dipole), not a pure TE1q1 eigenmode — a scope decision for the
+supervisor before Phase 3.
+
+Also learned: changing CST parameters with `StoreParameter` + `Rebuild` overwrites the
+previous run's results, so sweep scripts must read results after every solve. Quiet mode
+(`DesignEnvironment.set_quiet_mode(True)`) stopped the blocking dialogs.
+
+## Research phases
+
+`RESEARCH_PHASES.md` frames the project as research questions, phases and milestones
+M0–M7. Status: M0 (method validated), M1 (TE1q1 located) and M2 (matched single probe)
+met; M3 onward not started.
 
 ## Next steps
 
-1. Set up a CST parameter sweep over probe height / feed-circle radius / probe diameter
-   to find a matched single-probe baseline (S11 <= -10 dB near the target band).
-2. Benchmark the matched baseline's gain/efficiency/bandwidth against the stripline-fed
-   paper's numbers (the roadmap's "Paper 1" - not yet attached to this repo).
-3. Extend to N = 4 probes, equal amplitude/phase (Step 3) - power-combining gain vs.
-   single-element baseline.
-4. Only after Phase 1 is validated: circular-polarization phase (sequential-rotation
-   phasing), in a new `circular-polarization/` folder, following the same plan-first
-   pattern as `power-combining/`.
+1. Supervisor decision on the hybrid mode (accept, or try a magnetic-field-coupled feed).
+2. Extend to N = 4 probes, equal amplitude/phase (Phase 3): 4 × 4 S-matrix, port
+   isolation, combining efficiency against the 7.58 dBi single-element baseline.
+3. Obtain the stripline-fed paper itself to firm up the benchmark.
+4. After Phase 3: circular polarization (sequential rotation) in a new
+   `circular-polarization/` folder, following the same plan-first pattern.

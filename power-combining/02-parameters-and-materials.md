@@ -34,6 +34,11 @@ enough to skip re-defining it.
 
 ## Feed geometry
 
+> **Update 2026-10-15:** the probe defaults below never matched. The swept, matched
+> values are probe radius 0.15 mm, feed-circle radius **1.70 mm** (beside the sphere,
+> not under it), probe height **1.80 mm** — see
+> [07-probe-sweep-results.md](07-probe-sweep-results.md).
+
 The fundamental-modes paper's on-chip prototype gives real dimensions for its single
 **microstrip-fringing** feed - useful as scale references even though it isn't a probe.
 Nothing in either reference paper documents an actual probe feed, so probe-specific

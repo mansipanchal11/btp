@@ -1,0 +1,63 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+  -> parameters
+  -> units and solver
+  -> materials
+  -> geometry
+  -> boundaries
+  -> discrete port
+  -> solver
+Run r_f=1.70 h_p=0.60
+You are working in interactive mode.
+  run 1: min S11 -0.12 dB @ 40.000 GHz, -10dB band none
+Run r_f=1.70 h_p=0.90
+You are working in interactive mode.
+  run 1: min S11 -0.47 dB @ 40.000 GHz, -10dB band none
+Run r_f=1.70 h_p=1.20
+You are working in interactive mode.
+  run 1: min S11 -2.24 dB @ 40.000 GHz, -10dB band none
+Run r_f=1.70 h_p=1.50
+You are working in interactive mode.
+  run 1: min S11 -6.10 dB @ 34.042 GHz, -10dB band none
+Run r_f=1.70 h_p=1.80
+You are working in interactive mode.
+  run 1: min S11 -22.68 dB @ 33.106 GHz, -10dB band 32.782-33.502
+Run r_f=1.85 h_p=0.60
+You are working in interactive mode.
+  run 1: min S11 -0.11 dB @ 40.000 GHz, -10dB band none
+Run r_f=1.85 h_p=0.90
+You are working in interactive mode.
+  run 1: min S11 -0.40 dB @ 40.000 GHz, -10dB band none
+Run r_f=1.85 h_p=1.20
+You are working in interactive mode.
+  run 1: min S11 -1.64 dB @ 40.000 GHz, -10dB band none
+Run r_f=1.85 h_p=1.50
+You are working in interactive mode.
+  run 1: min S11 -4.52 dB @ 39.514 GHz, -10dB band none
+Run r_f=1.85 h_p=1.80
+You are working in interactive mode.
+  run 1: min S11 -12.76 dB @ 33.826 GHz, -10dB band 33.574-34.222
+Run r_f=2.00 h_p=0.60
+You are working in interactive mode.
+  run 1: min S11 -0.10 dB @ 40.000 GHz, -10dB band none
+Run r_f=2.00 h_p=0.90
+You are working in interactive mode.
+  run 1: min S11 -0.36 dB @ 40.000 GHz, -10dB band none
+Run r_f=2.00 h_p=1.20
+You are working in interactive mode.
+  run 1: min S11 -1.42 dB @ 40.000 GHz, -10dB band none
+Run r_f=2.00 h_p=1.50
+You are working in interactive mode.
+  run 1: min S11 -4.10 dB @ 39.748 GHz, -10dB band none
+Run r_f=2.00 h_p=1.80
+You are working in interactive mode.
+  run 1: min S11 -10.23 dB @ 34.150 GHz, -10dB band 34.042-34.294
+Done.
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

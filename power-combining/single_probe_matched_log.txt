@@ -1,0 +1,79 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+  -> parameters
+  -> units and solver
+  -> materials
+  -> geometry
+  -> boundaries
+  -> discrete port
+  -> solver
+  -> set matched geometry
+  -> monitors and probes
+{'text': 'Sample 10 (38.866 GHz)', 'type': 'INFO'}
+{'text': 'Excitation: port 1', 'type': 'INFO'}
+{'text': 'All broadband sweep convergence criteria have been satisfied after calculating 10 frequency samples.', 'type': 'INFO'}
+{'text': 'Calculating remaining monitors.', 'type': 'INFO'}
+{'text': 'Running postprocessing.', 'type': 'INFO'}
+{'text': 'Postprocessing finished.', 'type': 'INFO'}
+{'text': 'Creating parametric 1D results for Run ID 1', 'type': 'INFO'}
+{'text': '1 warning occurred.', 'type': 'WARNING'}
+--- result tree (filtered) ---
+1D Results\Adaptive Meshing\f=33.106\S-Parameters
+1D Results\Adaptive Meshing\f=33.106\S-Parameters\Delta
+1D Results\Adaptive Meshing\f=33.106\S-Parameters\Delta\All S-Parameters
+1D Results\Adaptive Meshing\f=33.106\S-Parameters\S1,1
+1D Results\Adaptive Meshing\f=40\S-Parameters
+1D Results\Adaptive Meshing\f=40\S-Parameters\Delta
+1D Results\Adaptive Meshing\f=40\S-Parameters\Delta\All S-Parameters
+1D Results\Adaptive Meshing\f=40\S-Parameters\S1,1
+1D Results\Convergence\Probes
+1D Results\Convergence\Probes\All Probes
+1D Results\Convergence\S-Parameters
+1D Results\Convergence\S-Parameters\All S-Parameters
+1D Results\Efficiencies
+1D Results\Efficiencies\Rad. Efficiency [1]
+1D Results\Efficiencies\Tot. Efficiency [1]
+1D Results\Power
+1D Results\Power\Excitation [1]
+1D Results\Power\Excitation [1]\Loss in Dielectrics
+1D Results\Power\Excitation [1]\Loss in Metals
+1D Results\Power\Excitation [1]\Loss per Material
+1D Results\Power\Excitation [1]\Loss per Material\Metal loss in Copper (annealed)
+1D Results\Power\Excitation [1]\Loss per Material\Volume loss in Alumina (custom mmWave fit)
+1D Results\Power\Excitation [1]\Loss per Material\Volume loss in Rogers RO3003
+1D Results\Power\Excitation [1]\Power Accepted
+1D Results\Power\Excitation [1]\Power Accepted per Port
+1D Results\Power\Excitation [1]\Power Accepted per Port\Port 1
+1D Results\Power\Excitation [1]\Power Outgoing all Ports
+1D Results\Power\Excitation [1]\Power Radiated
+1D Results\Power\Excitation [1]\Power Stimulated
+1D Results\Probes
+1D Results\Probes\E-Field
+1D Results\Probes\E-Field\E-Field (0 0 1.64)(Abs) [1]
+1D Results\Probes\E-Field\E-Field (0 0 1.64)(X) [1]
+1D Results\Probes\E-Field\E-Field (0 0 1.64)(Y) [1]
+1D Results\Probes\E-Field\E-Field (0 0 1.64)(Z) [1]
+1D Results\Probes\H-Field
+1D Results\Probes\H-Field\H-Field (0 0 1.64)(Abs) [1]
+1D Results\Probes\H-Field\H-Field (0 0 1.64)(X) [1]
+1D Results\Probes\H-Field\H-Field (0 0 1.64)(Y) [1]
+1D Results\Probes\H-Field\H-Field (0 0 1.64)(Z) [1]
+1D Results\S-Parameters
+1D Results\S-Parameters\S1,1
+Farfield Sources
+Farfields
+Farfields\farfield (f=25.1) [1]
+Farfields\farfield (f=33.106) [1]
+Probes
+Probes\E-Field (0 0 1.64)
+Probes\H-Field (0 0 1.64)
+--- FarfieldPlot API ---
+['ASCIIExportAsBroadbandSource', 'ASCIIExportAsSource', 'ASCIIExportVersion', 'AddCut', 'AddListEvaluationPoint', 'CalculateList', 'CalculatePoint', 'CalculatePointNoApprox', 'ClearCuts', 'CopyFarfieldTo1DResults', 'DBUnit', 'DecouplingPlaneAxis', 'DecouplingPlanePosition', 'Distance', 'DrawContourLines', 'DrawIsoLongitudeLatitudeLines', 'DrawStepLines', 'EnableFixPlotMaximum', 'EnablePhaseCenterCalculation', 'FarfieldSize', 'GetAngularWidthXdB', 'GetFixPlotMaximumValue', 'GetFrontToBackRatio', 'GetList', 'GetListItem', 'GetLogRange', 'GetMainLobeDirection', 'GetMainLobeVector', 'GetMax', 'GetMean', 'GetMin', 'GetPhaseCenterResult', 'GetPhaseCenterResultExpr', 'GetPhaseCenterResultExprAvg', 'GetPhaseCenterResultExprEPlane', 'GetPhaseCenterResultExprHPlane', 'GetPlotMode', 'GetRadiationEfficiency', 'GetSideLobeLevel', 'GetSideLobeSuppression', 'GetSystemRadiationEfficiency', 'GetSystemTotalEfficiency', 'GetTRP', 'GetTotalACS', 'GetTotalEfficiency', 'GetTotalRCS', 'IncludeUnitCellSidewalls', 'InvertAxes', 'IsInverseAxialRatio', 'IsPlotMaximumFixed', 'IsScaleLinear', 'Origin', 'Phi', 'Phistart', 'Plot', 'Plottype', 'PolarizationVector', 'Reset', 'ResetPlot', 'SelectComponent', 'SetAntennaType', 'SetAutomaticCoordinateSystem', 'SetAxesType', 'SetColorByValue', 'SetCoordinateSystemType', 'SetFarfieldTransparent', 'SetFixPlotMaximumValue', 'SetFrequency', 'SetInverseAxialRatio', 'SetLockSteps', 'SetLogNorm', 'SetLogRange', 'SetMainLobeThreshold', 'SetMaxReferenceMode', 'SetMovieSamples', 'SetMultipolNumber', 'SetNumberOfContourValues', 'SetPhaseCenterAngularLimit', 'SetPhaseCenterComponent', 'SetPhaseCenterPlane', 'SetPhiEnd', 'SetPhiStart', 'SetPlotMode', 'SetPlotRangeOnly', 'SetPolarizationType', 'SetScaleLinear', 'SetSpecials', 'SetStructureTransparent', 'SetTheta360', 'SetThetaEnd', 'SetThetaStart', 'SetTime', 'SetTimeDomainFF', 'SetUserDecouplingPlane', 'ShowPhaseCenter', 'ShowStructure', 'ShowStructureProfile', 'SlantAngle', 'Step', 'Step2', 'StoreSettings', 'SymmetricRange', 'Theta', 'Thetastart', 'UseDecouplingPlane', 'UseFarfieldApproximation', 'Userorigin', 'Vary']
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

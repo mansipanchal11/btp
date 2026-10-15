@@ -7,6 +7,10 @@ start (1)/
 power-combining/eigenmode_bare_sphere/
 power-combining/eigenmode_seated_sphere/
 power-combining/single_probe_baseline/
+power-combining/probe_sweep/
+power-combining/single_probe_matched/
+
+__pycache__/
 
 # Claude Code runtime state (not project config)
 .claude/

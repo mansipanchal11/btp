@@ -20,7 +20,12 @@ pass" (PCB area, feed-network loss, desired combining gain) is still worth doing
 fabrication, but doesn't block the CST build/solve work in
 [03-cst-workflow.md](03-cst-workflow.md), none of which depends on N being final.
 
-## 3. Feed circle radius and probe depth/diameter — DEFAULTED, LOWEST CONFIDENCE
+## 3. Feed circle radius and probe depth/diameter — RESOLVED BY SWEEP (2026-10-15)
+
+Superseded: the defaults below never matched (best −1 dB). A sweep with the probe beside
+the sphere found feed-circle radius 1.70 mm, probe height 1.80 mm, probe radius 0.15 mm
+→ S11 −22.7 dB at 33.11 GHz. See [07-probe-sweep-results.md](07-probe-sweep-results.md).
+Original reasoning kept below for the record.
 
 Neither reference paper documents an actual probe/coax feed - both use microstrip or
 stripline fringing coupling instead. The fundamental-modes paper's real dimensions
