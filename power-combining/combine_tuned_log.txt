@@ -1,0 +1,51 @@
+﻿
+You are working in interactive mode.
+S11 min -11.77 dB at 33.664 GHz (embedded, other ports matched)
+33.52 GHz: S11 -10.9 dB, S12 -11.1 dB, S13 -14.9 dB, S14 -11.1 dB
+33.72 GHz: S11 -11.6 dB, S12 -11.4 dB, S13 -19.1 dB, S14 -11.4 dB
+34.02 GHz: S11 -9.3 dB, S12 -12.0 dB, S13 -30.1 dB, S14 -12.0 dB
+[equal phase] best accepted fraction 0.991 at 34.780 GHz; active S at that freq [-20.5, -20.5, -20.5, -20.7] dB; -10 
+dB active band 34.150-35.608 GHz
+[sequential rotation] best accepted fraction 0.974 at 33.700 GHz; active S at that freq [-15.9, -15.8, -15.9, -16.0] 
+dB; -10 dB active band 33.502-33.988 GHz
+[push-pull pairs] best accepted fraction 0.974 at 33.700 GHz; active S at that freq [-15.8, -15.8, -16.1, -16.0] dB; 
+-10 dB active band 33.502-33.988 GHz
+{'freq_GHz': 33.52, 'scheme': 'single port 1 (embedded)', 'eta_acc': 0.73, 'eta_rad': 0.967, 'eta_tot': 0.706, 
+'eta_combine': 0.731, 'G_real_max_dBi': 7.59, 'G_real_boresight': 5.91, 'lobe_theta_phi0': 90.0, 'lobe_theta_phi90': 
+0.0, 'bw3dB_phi0': 23.4, 'bw3dB_phi90': 69.1, 'dEIRP_vs_single_dB': 0.01, 'dEIRP_vs_paper_dB': -2.41}
+{'freq_GHz': 33.52, 'scheme': 'equal phase', 'eta_acc': 0.659, 'eta_rad': 0.98, 'eta_tot': 0.646, 'eta_combine': 
+0.668, 'G_real_max_dBi': 3.89, 'G_real_boresight': -41.63, 'lobe_theta_phi0': 90.0, 'lobe_theta_phi90': 90.0, 
+'bw3dB_phi0': 32.3, 'bw3dB_phi90': 32.2, 'dEIRP_vs_single_dB': 2.33, 'dEIRP_vs_paper_dB': -0.09}
+{'freq_GHz': 33.52, 'scheme': 'sequential rotation', 'eta_acc': 0.921, 'eta_rad': 0.958, 'eta_tot': 0.882, 
+'eta_combine': 0.913, 'G_real_max_dBi': 8.92, 'G_real_boresight': 8.92, 'lobe_theta_phi0': 0.0, 'lobe_theta_phi90': 
+0.0, 'bw3dB_phi0': 63.1, 'bw3dB_phi90': 63.1, 'dEIRP_vs_single_dB': 7.36, 'dEIRP_vs_paper_dB': 4.94}
+{'freq_GHz': 33.52, 'scheme': 'push-pull pairs', 'eta_acc': 0.921, 'eta_rad': 0.958, 'eta_tot': 0.882, 'eta_combine': 
+0.913, 'G_real_max_dBi': 8.92, 'G_real_boresight': 8.92, 'lobe_theta_phi0': 0.0, 'lobe_theta_phi90': 0.0, 
+'bw3dB_phi0': 63.1, 'bw3dB_phi90': 63.1, 'dEIRP_vs_single_dB': 7.36, 'dEIRP_vs_paper_dB': 4.94}
+{'freq_GHz': 33.72, 'scheme': 'single port 1 (embedded)', 'eta_acc': 0.774, 'eta_rad': 0.973, 'eta_tot': 0.753, 
+'eta_combine': 0.779, 'G_real_max_dBi': 6.57, 'G_real_boresight': 6.12, 'lobe_theta_phi0': 10.0, 'lobe_theta_phi90': 
+0.0, 'bw3dB_phi0': 60.6, 'bw3dB_phi90': 72.1, 'dEIRP_vs_single_dB': -1.01, 'dEIRP_vs_paper_dB': -3.43}
+{'freq_GHz': 33.72, 'scheme': 'equal phase', 'eta_acc': 0.749, 'eta_rad': 0.982, 'eta_tot': 0.735, 'eta_combine': 
+0.761, 'G_real_max_dBi': 4.42, 'G_real_boresight': -41.39, 'lobe_theta_phi0': 90.0, 'lobe_theta_phi90': 90.0, 
+'bw3dB_phi0': 32.7, 'bw3dB_phi90': 32.6, 'dEIRP_vs_single_dB': 2.86, 'dEIRP_vs_paper_dB': 0.44}
+{'freq_GHz': 33.72, 'scheme': 'sequential rotation', 'eta_acc': 0.974, 'eta_rad': 0.967, 'eta_tot': 0.942, 
+'eta_combine': 0.975, 'G_real_max_dBi': 9.13, 'G_real_boresight': 9.13, 'lobe_theta_phi0': 0.0, 'lobe_theta_phi90': 
+0.0, 'bw3dB_phi0': 64.2, 'bw3dB_phi90': 64.2, 'dEIRP_vs_single_dB': 7.57, 'dEIRP_vs_paper_dB': 5.15}
+{'freq_GHz': 33.72, 'scheme': 'push-pull pairs', 'eta_acc': 0.974, 'eta_rad': 0.967, 'eta_tot': 0.942, 'eta_combine': 
+0.975, 'G_real_max_dBi': 9.13, 'G_real_boresight': 9.13, 'lobe_theta_phi0': 0.0, 'lobe_theta_phi90': 0.0, 
+'bw3dB_phi0': 64.2, 'bw3dB_phi90': 64.2, 'dEIRP_vs_single_dB': 7.57, 'dEIRP_vs_paper_dB': 5.15}
+{'freq_GHz': 34.02, 'scheme': 'single port 1 (embedded)', 'eta_acc': 0.754, 'eta_rad': 0.98, 'eta_tot': 0.739, 
+'eta_combine': 0.765, 'G_real_max_dBi': 7.03, 'G_real_boresight': 5.48, 'lobe_theta_phi0': 90.0, 'lobe_theta_phi90': 
+0.0, 'bw3dB_phi0': 25.5, 'bw3dB_phi90': 77.3, 'dEIRP_vs_single_dB': -0.55, 'dEIRP_vs_paper_dB': -2.97}
+{'freq_GHz': 34.02, 'scheme': 'equal phase', 'eta_acc': 0.866, 'eta_rad': 0.984, 'eta_tot': 0.852, 'eta_combine': 
+0.882, 'G_real_max_dBi': 5.02, 'G_real_boresight': -41.83, 'lobe_theta_phi0': 90.0, 'lobe_theta_phi90': 90.0, 
+'bw3dB_phi0': 33.2, 'bw3dB_phi90': 33.1, 'dEIRP_vs_single_dB': 3.46, 'dEIRP_vs_paper_dB': 1.04}
+{'freq_GHz': 34.02, 'scheme': 'sequential rotation', 'eta_acc': 0.892, 'eta_rad': 0.977, 'eta_tot': 0.871, 
+'eta_combine': 0.902, 'G_real_max_dBi': 8.49, 'G_real_boresight': 8.49, 'lobe_theta_phi0': 0.0, 'lobe_theta_phi90': 
+0.0, 'bw3dB_phi0': 66.0, 'bw3dB_phi90': 65.9, 'dEIRP_vs_single_dB': 6.93, 'dEIRP_vs_paper_dB': 4.51}
+{'freq_GHz': 34.02, 'scheme': 'push-pull pairs', 'eta_acc': 0.892, 'eta_rad': 0.977, 'eta_tot': 0.871, 'eta_combine': 
+0.902, 'G_real_max_dBi': 8.49, 'G_real_boresight': 8.49, 'lobe_theta_phi0': 0.0, 'lobe_theta_phi90': 0.0, 
+'bw3dB_phi0': 65.9, 'bw3dB_phi90': 65.9, 'dEIRP_vs_single_dB': 6.93, 'dEIRP_vs_paper_dB': 4.51}
+Done.
+
+

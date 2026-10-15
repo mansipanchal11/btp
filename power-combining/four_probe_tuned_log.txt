@@ -1,0 +1,26 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:432
++ ... g "closed"; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+  -> parameters
+  -> units and solver
+  -> materials
+  -> geometry: substrate, crate, sphere
+  -> geometry: four probes
+  -> boundaries
+  -> discrete ports
+  -> solver
+  -> farfield monitors
+{'text': 'Excitation: port 4', 'type': 'INFO'}
+{'text': 'All broadband sweep convergence criteria have been satisfied after calculating 12 frequency samples.', 'type': 'INFO'}
+{'text': 'Running postprocessing.', 'type': 'INFO'}
+{'text': 'Postprocessing finished.', 'type': 'INFO'}
+{'text': 'Creating parametric 1D results for Run ID 1', 'type': 'INFO'}
+{'text': '1 warning occurred.', 'type': 'WARNING'}
+Done.
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

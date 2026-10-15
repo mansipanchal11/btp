@@ -1,0 +1,47 @@
+﻿python.bat : '"mpivars.activate.bat"' is not recognized as an internal or external command,
+At line:1 char:302
++ ... tch {} } }; & "C:\Program Files (x86)\CST Studio Suite 2025\AMD64\pyt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('"mpivars.activ...ternal command,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+operable program or batch file.
+Run r_f=1.70 h_p=1.60
+You are working in interactive mode.
+  SR active best -7.63 dB @ 33.43 GHz, -10 dB band none
+Run r_f=1.70 h_p=1.80
+You are working in interactive mode.
+  SR active best -9.44 dB @ 33.178 GHz, -10 dB band none
+Run r_f=1.70 h_p=2.00
+You are working in interactive mode.
+  SR active best -10.36 dB @ 33.088 GHz, -10 dB band 33.016-33.160
+Run r_f=1.70 h_p=2.20
+You are working in interactive mode.
+  SR active best -10.92 dB @ 33.07 GHz, -10 dB band 32.962-33.196
+Run r_f=1.85 h_p=1.60
+You are working in interactive mode.
+  SR active best -5.08 dB @ 33.988 GHz, -10 dB band none
+Run r_f=1.85 h_p=1.80
+You are working in interactive mode.
+  SR active best -8.68 dB @ 33.718 GHz, -10 dB band none
+Run r_f=1.85 h_p=2.00
+You are working in interactive mode.
+  SR active best -13.38 dB @ 33.538 GHz, -10 dB band 33.358-33.772
+Run r_f=1.85 h_p=2.20
+You are working in interactive mode.
+  SR active best -20.13 dB @ 33.394 GHz, -10 dB band 33.196-33.664
+Run r_f=2.00 h_p=1.60
+You are working in interactive mode.
+  SR active best -4.24 dB @ 34.366 GHz, -10 dB band none
+Run r_f=2.00 h_p=1.80
+You are working in interactive mode.
+  SR active best -7.86 dB @ 33.97 GHz, -10 dB band none
+Run r_f=2.00 h_p=2.00
+You are working in interactive mode.
+  SR active best -16.25 dB @ 33.718 GHz, -10 dB band 33.520-34.024
+Run r_f=2.00 h_p=2.20
+You are working in interactive mode.
+  SR active best -21.48 dB @ 33.502 GHz, -10 dB band 33.322-33.772
+Done.
+'"mpivars.deactivate.bat"' is not recognized as an internal or external command,
+operable program or batch file.

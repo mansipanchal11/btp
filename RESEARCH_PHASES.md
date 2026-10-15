@@ -76,14 +76,21 @@ current status. Durations are suggested working weeks, not calendar dates.
   decision for the supervisor. Details: `power-combining/07-probe-sweep-results.md`.
 - **Natural checkpoint:** mid-term evaluation (single-element antenna characterized).
 
-### Phase 3 — Multi-port power combining (≈3 weeks) — NOT STARTED
+### Phase 3 — Multi-port power combining (≈3 weeks) — FIRST STAGE COMPLETE
 
 - **Objective:** answer RQ3.
-- **Method:** four identical probes at 90° spacing, equal amplitude and phase; full 4×4
-  S-matrix for port isolation; compare radiated power to four times the single-element
-  reference from M2.
-- **Milestone M3:** combining efficiency (P_rad with N feeds / N·P_rad with 1 feed) reported,
-  with port isolation and a mode-purity check against the M1 field pattern.
+- **Method:** four identical probes at 90° spacing; full 4×4 S-matrix; combined
+  excitations by superposition; combining efficiency against the M2 single element.
+- **Re-scoped from the roadmap:** equal-phase feeding was tested and fails by symmetry —
+  it drives the m = 0 mode, with a broadside null (−48 dBi at boresight, combining
+  efficiency 0.04). Phase 3 now uses an m = 1 drive (sequential rotation, or push-pull for
+  linear polarization), which is also the Phase 4 CP architecture.
+- **Milestone M3 (met):** after retuning the probes for their active impedance
+  (feed radius 2.00 mm, height 2.00 mm), sequential-rotation drive gives **combining
+  efficiency 0.975**, active match −15.9 dB, 9.13 dBi realized gain at boresight, and
+  **+7.6 dB EIRP over one source** (+5.2 dB over the stripline-fed paper's antenna). Open
+  issue: −10 dB active bandwidth only 1.4%. Details:
+  `power-combining/08-four-probe-combining-results.md`.
 
 ### Phase 4 — Circular polarization by sequential rotation (≈3 weeks) — NOT STARTED
 
@@ -122,7 +129,7 @@ current status. Durations are suggested working weeks, not calendar dates.
 | M0 Simulation methodology validated | Tutorial model reproduced within 0.25% (3 of 4 modes) | Met |
 | M1 TE1q1 mode located and its ground-plane splitting explained | Eigenmode results, bare and seated | Met |
 | M2 Matched single-probe antenna characterized | S11 −22.7 dB @ 33.11 GHz, 97% rad. eff., 7.6 dBi; hybrid mode identified | Met (mode is hybrid, not pure TE1q1) |
-| M3 Equal-phase 4-port combining demonstrated | Combining efficiency, isolation, mode purity | Not started |
+| M3 4-port combining demonstrated | Combining efficiency 0.975, +7.6 dB EIRP, 9.13 dBi (sequential rotation; equal phase shown to fail) | Met (bandwidth 1.4%) |
 | M4 Circular polarization demonstrated | AR < 3 dB bandwidth, CP sense | Not started |
 | M5 Tolerance study and feed network | Sensitivity curves, divider design | Not started |
 | M6 Prototype measured | Measured S11, efficiency, pattern, AR | Not started (time-permitting) |
@@ -134,6 +141,7 @@ current status. Durations are suggested working weeks, not calendar dates.
 | --- | --- | --- |
 | Probe feeds have no precedent in either reference paper | M2 | Resolved: sweep found a matched probe geometry |
 | A vertical probe excites a hybrid mode rather than pure TE1q1 | RQ2 framing, M3–M4 | Supervisor decision: accept hybrid, or try a feed that couples to magnetic field (horizontal current / slot) |
+| Narrow combining bandwidth (1.4%) | M3–M5 | Metal cavity/shield; sequential-rotation feed network cancels port reflections at its input; lower-Q mode near 22.8 GHz |
 | The ground plane splits TE1q1, so different feeds may excite different split modes | M2–M4 | Identify the excited mode with field monitors at each milestone |
 | Workstation memory (16 GB) limits mesh density | All simulation phases | Small models, one CST session at a time, verify runs from solver logs |
 | Stripline-fed reference paper not yet in hand | M2 benchmark | Obtain the full paper; until then use the roadmap's summary figures |

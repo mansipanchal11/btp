@@ -9,6 +9,9 @@ power-combining/eigenmode_seated_sphere/
 power-combining/single_probe_baseline/
 power-combining/probe_sweep/
 power-combining/single_probe_matched/
+power-combining/four_probe/
+power-combining/four_probe_sweep/
+power-combining/four_probe_tuned/
 
 __pycache__/
 

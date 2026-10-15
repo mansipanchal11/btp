@@ -24,6 +24,9 @@ build scripts and `.cst` projects for this phase will live alongside these files
   and seated sphere eigenmodes, done
 - [07-probe-sweep-results.md](07-probe-sweep-results.md) — Step 2 results: probe sweep,
   matched design (−22.7 dB @ 33.11 GHz), radiation performance, mode identification
+- [08-four-probe-combining-results.md](08-four-probe-combining-results.md) — Phase 3:
+  four-probe combining, why equal phase fails, retuned design (combining efficiency
+  0.975, +7.6 dB EIRP), comparison with the stripline-fed paper
 
 ## Relationship to prior work
 

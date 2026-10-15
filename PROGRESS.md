@@ -97,17 +97,31 @@ Also learned: changing CST parameters with `StoreParameter` + `Rebuild` overwrit
 previous run's results, so sweep scripts must read results after every solve. Quiet mode
 (`DesignEnvironment.set_quiet_mode(True)`) stopped the blocking dialogs.
 
+### 5. Phase 3 - four-probe power combining: FIRST STAGE DONE
+
+`power-combining/08-four-probe-combining-results.md`. Four probes around one sphere,
+full 4×4 S-matrix, combined excitations by superposition.
+
+- **Equal-phase feeding (the roadmap's Phase 3 scheme) fails by symmetry:** it drives
+  the m = 0 mode, putting a null at broadside (−48 dBi; combining efficiency 0.04).
+- **Sequential rotation (0/90/180/270°) works** and is also the CP architecture. With
+  the single-probe geometry reused, neighbour coupling (−10.6 dB) limited the active
+  match to −9.1 dB (combining efficiency 0.88).
+- **Retuned for active impedance** (feed radius 2.00 mm, probe height 2.00 mm):
+  active −15.9 dB at 33.70 GHz, combining efficiency 0.975, 9.13 dBi realized gain on
+  boresight, +7.6 dB EIRP over one source, +5.2 dB over the stripline-fed paper's
+  antenna. Remaining weakness: 1.4% active bandwidth (paper ~3%).
+
 ## Research phases
 
 `RESEARCH_PHASES.md` frames the project as research questions, phases and milestones
-M0–M7. Status: M0 (method validated), M1 (TE1q1 located) and M2 (matched single probe)
-met; M3 onward not started.
+M0–M7. Status: M0, M1, M2 and M3 met; M4 onward not started.
 
 ## Next steps
 
-1. Supervisor decision on the hybrid mode (accept, or try a magnetic-field-coupled feed).
-2. Extend to N = 4 probes, equal amplitude/phase (Phase 3): 4 × 4 S-matrix, port
-   isolation, combining efficiency against the 7.58 dBi single-element baseline.
-3. Obtain the stripline-fed paper itself to firm up the benchmark.
-4. After Phase 3: circular polarization (sequential rotation) in a new
-   `circular-polarization/` folder, following the same plan-first pattern.
+1. Supervisor decisions: accept the hybrid mode; confirm re-scoping Phase 3 from equal
+   phase to sequential rotation.
+2. Axial ratio of the sequential-rotation excitation (Phase 4), from the saved farfields.
+3. Widen the 1.4% bandwidth: metal cavity/shield, feed-network reflection cancellation.
+4. Model the 4-way divider and phase lines so efficiency includes feed losses.
+5. Obtain the stripline-fed paper itself to firm up the benchmark.
